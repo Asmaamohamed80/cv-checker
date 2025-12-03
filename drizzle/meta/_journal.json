@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1764435802184,
+      "tag": "0000_lyrical_cloak",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1764435894619,
+      "tag": "0001_next_nuke",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1764438275634,
+      "tag": "0002_nifty_nocturne",
+      "breakpoints": true
+    }
+  ]
+}

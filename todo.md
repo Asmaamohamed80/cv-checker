@@ -119,3 +119,14 @@
 - [ ] حفظ السيرة الجاهزة في قاعدة البيانات
 - [ ] إتاحة تحميل السيرة الجاهزة بصيغ مختلفة (PDF, DOCX)
 - [ ] إضافة نفس الميزة للبورتفوليو
+
+## إصلاح Railway Deployment
+- [x] إضافة railway.json للتكوين
+- [x] إضافة .railwayignore
+- [x] توثيق متغيرات البيئة المطلوبة (RAILWAY_DEPLOYMENT.md)
+
+## إصلاح Railway Deployment - Patches Folder
+- [x] التحقق من وجود patches folder
+- [x] إضافة wouter@3.7.1.patch
+- [x] إضافة README.md للتوضيح
+- [ ] رفع patches folder إلى GitHub

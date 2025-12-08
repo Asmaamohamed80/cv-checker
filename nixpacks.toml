@@ -5,7 +5,7 @@ nixPkgs = ["nodejs_latest", "pnpm"]
 cmds = ["pnpm install"]
 
 [phases.build]
-cmds = ["pnpm build", "mkdir -p dist", "cp -r server dist/", "cp -r drizzle dist/", "cp -r storage dist/", "cp -r shared dist/"]
+cmds = ["pnpm build"]
 
 [start]
-cmd = "pnpm start"
+cmd = "NODE_ENV=production pnpm exec tsx server/_core/index.ts"
